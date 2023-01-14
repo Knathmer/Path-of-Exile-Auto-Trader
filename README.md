@@ -5,7 +5,7 @@ This script automates the process of "sniping" items from the market for cheap p
 Prerequisites
 1. You must have all of the required Python modules installed.
 2. In the initialization section, you must change the path to your chrome profile. Simply replace the name of the profile with your profile name.
-3. In the initialization section, you must change the path to your chromedriver.exe. Simply replace the path with the path to your chromedriver.exe. It is recommended to put it in the same folder as this script.
+3. In the initialization section, you must change the path to your chromedriver.exe. Simply replace the path with the path to your chromedriver.exe. It is recommended to put it in the same folder as this script. NOTE: Install Chromedriver from: https://chromedriver.chromium.org/downloads make sure it matches your Chrome version.
 4. Set your threshold prices for chaos, divine, and mirror orbs.
 5. Chrome must be closed before running the script.
 6. Before closing out of chrome, you must copy the link to the live update page. This can be done by clicking the "Live Update" button on the trade site. Keep it on your clipboard.
