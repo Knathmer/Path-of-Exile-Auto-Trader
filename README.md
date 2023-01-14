@@ -1,4 +1,4 @@
-Path of Exile Auto Buyer
+Path of Exile Auto Trader
 
 This script automates the process of "sniping" items from the market for cheap prices. As soon as a price below your threshold appears on the market, the script will send an offer to the player so long as the chat box is not restricted.
 
