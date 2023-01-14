@@ -7,7 +7,7 @@ Prerequisites
 2. In the initialization section, you must change the path to your chrome profile. Simply replace the name of the profile with your profile name.
 3. In the initialization section, you must change the path to your chromedriver.exe. Simply replace the path with the path to your chromedriver.exe. It is recommended to put it in the same directory indicated in the script. NOTE: Install Chromedriver from: https://chromedriver.chromium.org/downloads make sure it matches your Chrome version.
 4. Set your threshold prices for chaos, divine, and mirror orbs.
-5. You must have a default profile in chrome that contains cookies for your login information on https://www.pathofexile.com/. This is the profile that will be used to run the script.
+5. You must have a profile in chrome that contains cookies for your login information on https://www.pathofexile.com/. This is the profile that will be used to run the script.
 
 Usage
 1. Go to https://www.pathofexile.com/. Login and click on "Trade".
