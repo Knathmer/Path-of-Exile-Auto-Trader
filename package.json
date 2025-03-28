@@ -1,0 +1,15 @@
+{
+  "name": "poe-trader",
+  "version": "1.0.0",
+  "description": "POE Trading Tool",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "author": "Eraj Anwar",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^35.1.2"
+  }
+}
