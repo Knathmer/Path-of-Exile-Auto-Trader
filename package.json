@@ -5,11 +5,16 @@
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "electron ."
+    "start": "electron .",
+    "dev": "electronmon main.js"
   },
   "author": "Eraj Anwar",
   "license": "ISC",
   "devDependencies": {
-    "electron": "^35.1.2"
+    "electron": "^35.1.2",
+    "electronmon": "^2.0.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7"
   }
 }

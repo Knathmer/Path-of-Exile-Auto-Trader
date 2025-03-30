@@ -2,19 +2,44 @@
 <html>
   <head>
     <meta charset="UTF-8" />
-    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
     <meta
       http-equiv="Content-Security-Policy"
-      content="default-src 'self'; script-src 'self'"
+      content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'"
     />
     <meta
       http-equiv="X-Content-Security-Policy"
-      content="default-src 'self'; script-src 'self'"
+      content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'"
     />
-    <title>Hello from Electron renderer!</title>
+    <title>Path of Exile Trading Tool</title>
+    <style>
+      /* Dark theme styling */
+      body {
+        background-color: #1b1a1a;
+        color: #E0E0E0;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 20px;
+      }
+      h1 {
+        color: #BB86FC;
+      }
+      h2 {
+        color: #03DAC6;
+      }
+      p {
+        line-height: 1.5;
+      }
+      a {
+        color: #BB86FC;
+      }
+    </style>
   </head>
   <body>
-    <h1>Hello from Electron renderer!</h1>
-    <p>👋</p>
+    <h1>Path of Exile Trading Tool</h1>
+    <p id="info"></p>
+    <h2>
+      <p id="fruits"></p>
+    </h2>
+    <script src="./renderer.js"></script>
   </body>
 </html>
